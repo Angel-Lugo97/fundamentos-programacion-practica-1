@@ -18,7 +18,8 @@ function miInformacion() {
   const nombre = "";
   const edad = 0;
   const carrera = "";
-  
+  //Modificacion de prueba--------------
+
   return { nombre, edad, carrera };
 }
 
