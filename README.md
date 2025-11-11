@@ -248,8 +248,8 @@ git log --oneline --graph --decorate
 
 ## 📧 Contacto
 
-- **Email Institucional:** [tu-correo@institucional.edu.mx]
-- **GitHub:** [@TU-USUARIO](https://github.com/TU-USUARIO)
+- **Email Institucional:** [angel.lugo@tecdesoftware.edu.mx]
+- **GitHub:** [@Angel-Lugo97](https://github.com/Angel-Lugo97)
 
 ---
 
@@ -263,6 +263,6 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Tu Nombre] - 2025
+Hecho con 💙 por [Angel Abraham Lugo Saenz] - 2025
 
 </div>
