@@ -303,7 +303,11 @@ function invertirArray(arr) {
  */
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
-  const matriz = [];
+  //Utilizamos el metodo array.from() para crear arrays de manera flexible apartir de otras estructuras
+  //aplicandolo aqui en la matriz 
+  //Array.from() crea un nuevo array con filas elementos (especificado con { length: filas }).
+  
+  const matriz = Array.from({ length: filas }, () => Array(columnas).fill(0));
   return matriz;
 }
 
