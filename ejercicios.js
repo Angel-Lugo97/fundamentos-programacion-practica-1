@@ -196,7 +196,7 @@ function numerosPares(n) {
   //En tabla[i - 1]=i*2 guardamos el numero par en el indice i-1
   const pares = [];
   for (let i = 1; i <= n / 2; i++) {
-   tabla[i - 1] = i * 2;
+   pares[i - 1] = i * 2;
   }
   return pares;
 }
