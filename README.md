@@ -1,8 +1,8 @@
 ## 👨‍💻 Información del Estudiante
 
-- **Nombre:** [Tu nombre completo]
-- **Matrícula:** [Tu matrícula]
-- **Grupo:** [A/B/C]
+- **Nombre:** [Angel Abraham Lugo Saenz]
+- **Matrícula:** [SW2409052]
+- **Grupo:** [B]
 - **Cuatrimestre:** Primer Cuatrimestre
 - **Carrera:** TSU en Desarrollo e Innovación de Software
 - **Profesor:** Jorge Javier Pedrozo Romero
