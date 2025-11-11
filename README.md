@@ -1,7 +1,7 @@
 # Práctica de Fundamentos de Programación
 ## Desarrollo de Software y Negocios Digitales
 
- ![Tests](https://github.com/JorgeTSW/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
+ ![Tests](https://github.com/Angel-Lugo97/fundamentos-programacion-practica-1.git)
 
 ¡Bienvenido a la práctica de programación! En este repositorio aprenderás a programar en JavaScript mientras aplicas conceptos de álgebra.
 
