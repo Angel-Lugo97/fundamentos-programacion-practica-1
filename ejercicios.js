@@ -173,8 +173,14 @@ function sumaHastaN(n) {
  */
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
-  const tabla = [];
-  return tabla;
+  //Acompletaremos este codigo para generar una tabla de multiplicar
+  //Con el bucle For se ejecuta 10 veces por el numeros de elem dentro del contedor del ejemplos de arriba
+  //y con tabla[i]=(i+1)*numero asignamos directamente el valor al indicie del array
+ const tabla = [];
+  for (let i = 0; i < 10; i++) {
+    tabla[i] = (i + 1) * numero;
+  }
+    return tabla;
 }
 
 /**
