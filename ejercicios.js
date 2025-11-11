@@ -306,7 +306,7 @@ function crearMatriz(filas, columnas) {
   //Utilizamos el metodo array.from() para crear arrays de manera flexible apartir de otras estructuras
   //aplicandolo aqui en la matriz 
   //Array.from() crea un nuevo array con filas elementos (especificado con { length: filas }).
-  
+
   const matriz = Array.from({ length: filas }, () => Array(columnas).fill(0));
   return matriz;
 }
@@ -320,7 +320,15 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  //Usamos el for..of para iterar sobre los elementos del array
+  //el primero For..of  recorre las filas de la amtriz y el segundo recrre las filas, mandolo a la variable suma
+  let suma = 0;
+for (let fila of matriz) {
+  for (let valor of fila) {
+    suma = suma + valor;
+  }
+}
+return suma;
 }
 
 /**
