@@ -203,11 +203,12 @@ Este proyecto me prepara para:
 ---
 
 ## 📝 Historial de Commits
-
 ```bash
 # Ver mi historial completo
 git log --oneline --graph --decorate
+```
 
+**Commits destacados:**
 * 7e9efb4 Utilizand el metodo Array.from(), solucionamos el ejercicio 5.5
 * bc071c5 Utlizamos el metodo map(), para solucionar el ejercicio 5.4
 * 278c20b Utilizamos el metodo find(), para solucionar el ejercicio numero 5.3
@@ -233,7 +234,8 @@ git log --oneline --graph --decorate
 * 3718631 Compruebo los ejercicio 1.3 y 1.4, por error de sintaxis
 * 964ee06 Aregle el return del area del ejercicio 1.3
 * 2b4e0f9 Arregle el ejericio1, 2 y 3
----
+
+
 
 ## 🤝 Agradecimientos
 
