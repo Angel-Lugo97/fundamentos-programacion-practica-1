@@ -157,7 +157,12 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  //volvemos a usar el bucle For para realizar el conteo ded 1 hasta el valor n,
+  let suma =0;
+  for(let i=i; i<=n; i++){
+    suma = suma + i;
+  }
+  return suma;
 }
 
 /**
