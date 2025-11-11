@@ -123,7 +123,10 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
+    //usamos los operadores ternarios anidados de IF-Else, para manejar varias condiciones
+  //Ojo
+  //En programacion, no es una buenna practica utilizar operadores ternarios anidados
+  return validacion = (edad <=17) ? "menor" : (edad >= 65) ? "mayor" : "adulto";
 }
 
 // ============================================
