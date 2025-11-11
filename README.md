@@ -209,31 +209,32 @@ git log --oneline --graph --decorate
 ```
 
 **Commits destacados:**
-* 7e9efb4 Utilizand el metodo Array.from(), solucionamos el ejercicio 5.5
-* bc071c5 Utlizamos el metodo map(), para solucionar el ejercicio 5.4
-* 278c20b Utilizamos el metodo find(), para solucionar el ejercicio numero 5.3
-* d084ff6 Utilizando dos For..of, resolvemos el ejercicio 5.2
-* 307898c Utilizamos el metodo Array.from(), para solucionar el ejercicio 5.1
-* f7dee71 Utilizamos el metodo .reverse(), para solucionar el ejercicio 4.5
-* f880e13 Utilizamos el bucle for..of, para solucionar el ejercicio 4.4
-* 740c10f Con el metodo Math.max, solucionamos el ejercicio 4.3
-* 28435e9 Con un bucle For y Condiconal IF, resolvemos el ejercicio 4.2
-* a9a56eb Utilizamos un bucle for para solucionar el ejercicio 4.1
-* 0b1f443 Modificamos el error de par a tabla
-* 1216a92 Modificando el codigo del 3.3, solucionamos el ejercicio 3.4
-* f6d310e Con un bucle For y con con tabla[i] = (i + 1) * numero, resolvemos el ejercicio 3.3
-* f58b5ae Arreglo el problema de sintaxis del ejercicio 3.2
-* 327986e Utilizamos el bucle For para usarlo de contador y resolver el ejericio 3.2
-* d7ef35a Utilizamos un el bucle For para solucionar el ejercicio 3.1
-* 22b0292 Utiliamos operadores ternarios anidados para solucionar el ejercicio 2.4
-* 926ead3 Usamos el metodo Math.max() para resolver el ejercicio 2.3
-* 60e807d Vuelvo a verifiar el error del ejercicio 2.2
-* 50bb042 Corrijo el mensaje del return
-* 6a84187 Utilizando el condicional IF, resuelvo el ejercicio 2.2
-* e29ae1e Resuelvo el ejercicio 2.1, utilizando el condicional if
-* 3718631 Compruebo los ejercicio 1.3 y 1.4, por error de sintaxis
-* 964ee06 Aregle el return del area del ejercicio 1.3
-* 2b4e0f9 Arregle el ejericio1, 2 y 3
+- 7e9efb4 feat: Ejercicio 5.5 resuelto
+- bc071c5 feat: Ejercicio 5.4 resuelto
+- 278c20b feat: Ejercicio 5.3 resuelto
+- d084ff6 feat: Ejercicio 5.2 resuelto
+- 307898c feat: Ejercicio 5.1 resuelto
+- f7dee71 feat: Ejercicio 4.5 resuelto
+- f880e13 feat: Ejercicio 4.4 resuelto
+- 740c10f feat: Ejercicio 4.3 resuelto
+- 28435e9 feat: Ejercicio 4.2 resuelto
+- a9a56eb feat: Ejercicio 4.1 resuelto
+- 0b1f443 fix: Modificamos el error de par a tabla
+- 1216a92 feat: Ejercicio 3.4 resuelto
+- f6d310e feat: Ejercicio 3.3 resuelto
+- f58b5ae fix: Arreglo problema de sintaxis del ejercicio 3.2
+- 327986e feat: Ejercicio 3.2 resuelto
+- d7ef35a feat: Ejercicio 3.1 resuelto
+- 22b0292 feat: Ejercicio 2.4 resuelto
+- 926ead3 feat: Ejercicio 2.3 resuelto
+- 60e807d fix: Verificación del error en ejercicio 2.2
+- 50bb042 fix: Corrección del mensaje del return
+- 6a84187 feat: Ejercicio 2.2 resuelto
+- e29ae1e feat: Ejercicio 2.1 resuelto
+- 3718631 fix: Comprobación ejercicios 1.3 y 1.4 por sintaxis
+- 964ee06 fix: Arreglo del return del área en ejercicio 1.3
+- 2b4e0f9 fix: Arreglo de ejercicios 1, 2 y 3
+
 
 
 
