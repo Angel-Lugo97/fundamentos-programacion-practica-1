@@ -191,7 +191,13 @@ function tablaMultiplicar(numero) {
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
+  //Modifiando un pcoo el codigo anterior hacemos ahora para numeros pares
+  //con el FOR comenzamos con i=1 y vamos hasta la mitad de n(porque estamos buscando numeros pares)
+  //En tabla[i - 1]=i*2 guardamos el numero par en el indice i-1
   const pares = [];
+  for (let i = 1; i <= n / 2; i++) {
+   tabla[i - 1] = i * 2;
+  }
   return pares;
 }
 
