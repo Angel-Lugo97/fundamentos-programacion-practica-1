@@ -212,7 +212,12 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  ///Utilizamos un bucle For para iterar los indicies del array y por casa conteo actulizar el valor de suma
+   let suma = 0;
+  for(let i=0; i < numeros.length; i++){
+    suma = suma + numeros[i];
+  }
+  return suma;
 }
 
 /**
@@ -222,12 +227,18 @@ function sumaArray(numeros) {
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  //Utilizamos un bucle For para iterar los indicies del array y por casa conteo actulizar el valor de suma
+  //Con un bucle For
+  //Sumamos todos los elementos del array en la variable suma y luego calculamos el promedio dividiendo la suma entre
+  //los elementos del array, en caso de que el arrayeste vacio retorna 0 para evitar la division por cero
   let suma = 0;
-  for(let i=0; i < numeros.length; i++){
-    suma = suma + numeros[i];
-  }
-  return suma;
+if (numeros.length === 0) {
+    return 0;
+}
+for (let i = 0; i < numeros.length; i++) {
+  suma = suma + numeros[i];
+}
+let promedio = suma / numeros.length;
+return promedio;
 }
 
 /**
