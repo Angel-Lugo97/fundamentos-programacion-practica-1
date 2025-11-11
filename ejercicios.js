@@ -263,8 +263,15 @@ function encontrarMaximo(numeros) {
  */
 function filtrarMayores(numeros, limite) {
   // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
+  //Utilizamos el bucle for..of para recorrer directamente los valores del array numeros, sin necesidad de declarar un indice(i)
+  //si el numero es mayor a limite, se agrega al array mayores
   const mayores = [];
-  return mayores;
+  for (let num of numeros) {
+    if (num > limite) {
+    mayores.push(num);
+  }
+}
+return mayores;
 }
 
 /**
