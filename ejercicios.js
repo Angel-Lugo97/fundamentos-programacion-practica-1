@@ -142,7 +142,12 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  //Utilizo un bucle 'for' para multiplicar todos los números desde 1 hasta 'n' y obtener el factorial.
+    let factorial =1;
+  for(let i =1; i <= n; i++){
+    factorial *= i;
+  }
+  return factorial; 
 }
 
 /**
