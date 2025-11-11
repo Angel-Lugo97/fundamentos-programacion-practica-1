@@ -340,7 +340,12 @@ return suma;
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  //El metodo fin() devuele el primer elemento que cumpla con la condicion espesificada, que en este caso es el indiceFila
+  //find() recorre el array hasta que encuentra el primer elemento que cumple la condición 
+  // (en este caso, que el índice i sea igual a indiceFila).
+  //Una vez que encuentra la fila correspondiente, la retorna.
+  return matriz.find((fila, i) => i === indiceFila);
+
 }
 
 /**
