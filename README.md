@@ -207,16 +207,32 @@ Este proyecto me prepara para:
 ```bash
 # Ver mi historial completo
 git log --oneline --graph --decorate
-```
 
-**Commits destacados:**
-- `feat: Completar Sección 1 - Variables y tipos de datos`
-- `feat: Implementar ejercicios de condicionales`
-- `feat: Resolver funciones y bucles`
-- `feat: Completar manipulación de arrays`
-- `feat: Finalizar arrays bidimensionales - matrices`
-- `docs: Actualizar README con resultados finales`
-
+* 7e9efb4 Utilizand el metodo Array.from(), solucionamos el ejercicio 5.5
+* bc071c5 Utlizamos el metodo map(), para solucionar el ejercicio 5.4
+* 278c20b Utilizamos el metodo find(), para solucionar el ejercicio numero 5.3
+* d084ff6 Utilizando dos For..of, resolvemos el ejercicio 5.2
+* 307898c Utilizamos el metodo Array.from(), para solucionar el ejercicio 5.1
+* f7dee71 Utilizamos el metodo .reverse(), para solucionar el ejercicio 4.5
+* f880e13 Utilizamos el bucle for..of, para solucionar el ejercicio 4.4
+* 740c10f Con el metodo Math.max, solucionamos el ejercicio 4.3
+* 28435e9 Con un bucle For y Condiconal IF, resolvemos el ejercicio 4.2
+* a9a56eb Utilizamos un bucle for para solucionar el ejercicio 4.1
+* 0b1f443 Modificamos el error de par a tabla
+* 1216a92 Modificando el codigo del 3.3, solucionamos el ejercicio 3.4
+* f6d310e Con un bucle For y con con tabla[i] = (i + 1) * numero, resolvemos el ejercicio 3.3
+* f58b5ae Arreglo el problema de sintaxis del ejercicio 3.2
+* 327986e Utilizamos el bucle For para usarlo de contador y resolver el ejericio 3.2
+* d7ef35a Utilizamos un el bucle For para solucionar el ejercicio 3.1
+* 22b0292 Utiliamos operadores ternarios anidados para solucionar el ejercicio 2.4
+* 926ead3 Usamos el metodo Math.max() para resolver el ejercicio 2.3
+* 60e807d Vuelvo a verifiar el error del ejercicio 2.2
+* 50bb042 Corrijo el mensaje del return
+* 6a84187 Utilizando el condicional IF, resuelvo el ejercicio 2.2
+* e29ae1e Resuelvo el ejercicio 2.1, utilizando el condicional if
+* 3718631 Compruebo los ejercicio 1.3 y 1.4, por error de sintaxis
+* 964ee06 Aregle el return del area del ejercicio 1.3
+* 2b4e0f9 Arregle el ejericio1, 2 y 3
 ---
 
 ## 🤝 Agradecimientos
