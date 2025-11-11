@@ -227,7 +227,7 @@ function sumaArray(numeros) {
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  //Con un bucle For
+  //Con un bucle For y un condicional IF
   //Sumamos todos los elementos del array en la variable suma y luego calculamos el promedio dividiendo la suma entre
   //los elementos del array, en caso de que el arrayeste vacio retorna 0 para evitar la division por cero
   let suma = 0;
@@ -249,7 +249,9 @@ return promedio;
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+  //Usando Math.max puedo encontrar el numero mas grande del array y retornar el valor mas grande que encuentre
+  const maximo = Math.max(...numeros);
+  return maximo;
 }
 
 /**
