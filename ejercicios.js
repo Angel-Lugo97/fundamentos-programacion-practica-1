@@ -283,8 +283,9 @@ return mayores;
 function invertirArray(arr) {
   // TODO: Invierte el orden de los elementos
   // Pista: Puedes usar arr.reverse() o hacerlo manualmente
-  const invertido = [];
-  return invertido;
+  // Con el metodo .reverse() como lo indica el profesor en la pista para invertir el orden de los elementos de un array
+  //modificando el array original y devuelve una referencia al mismo array.
+  return arr.reverse();
 }
 
 // ============================================
