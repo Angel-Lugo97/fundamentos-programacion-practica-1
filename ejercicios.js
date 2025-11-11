@@ -78,7 +78,13 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+  //El condicional IF el me permite generar una condicion para determinar si el numero es par o impar, atraves
+  //de la validacion y === es igualdad estricta, ya que = es asignar un valor.
+  if(numero % 2 === 0){
+    return "par";
+  }else{
+    return "impar"
+  }
 }
 
 /**
