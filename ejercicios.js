@@ -96,10 +96,10 @@ function evaluarNota(nota) {
   // TODO: Implementa la lÃ³gica con if/else
     //Utilizo el condicon IF para comprobar si la nota es aprobatario o reprobatoria
     //valiendolo con la comparacion
-    if(nota >= 60){
+    if(nota >=60){
       return "Aprobado";
     }else{
-      return "Reprobdo";
+      return "Reprobado"; 
     }
 }
 
