@@ -373,8 +373,14 @@ function obtenerColumna(matriz, indiceColumna) {
  */
 function transponer(matriz) {
   // TODO: Crea la matriz transpuesta
-  const transpuesta = [];
-  return transpuesta;
+  //Utilizamods el metodo Array.from({ length: matriz[0].length }): Esto crea un nuevo array cuya longitud es igual al número
+  //de columnas de la matriz original (usando la longitud de la primera fila, matriz[0].length
+  //(_, indiceColumna): Aquí, el primer argumento (_) es el valor de la fila, pero no lo usamos
+  //segundo (indiceColumna) es el índice de cada columna que estamos iterando.
+  //matriz.map(fila => fila[indiceColumna]): Para cada columna, se mapea cada fila y se extrae el valor
+    return Array.from({ length: matriz[0].length }, (_, indiceColumna) => 
+    matriz.map(fila => fila[indiceColumna])
+  );
 }
 
 // ============================================
