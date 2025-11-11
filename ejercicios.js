@@ -357,8 +357,11 @@ function obtenerFila(matriz, indiceFila) {
  */
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
-  const columna = [];
-  return columna;
+  //Aplicamos map() a la matriz para extraer la columna específica.
+  //map() recorre cada fila de la matriz.
+  //Para cada fila, se extrae el valor de la columna en el índice indiceColumna y
+  // se crea un nuevo array con esos valores.
+  return matriz.map(fila => fila[indiceColumna]);
 }
 
 /**
